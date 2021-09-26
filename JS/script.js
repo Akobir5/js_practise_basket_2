@@ -10,6 +10,7 @@ openBtn.addEventListener('click', () => {
   shopBox.style.transition = '0.5s ease-in-out'
   basketBox.style.display = 'block'
   basketBox.style.transition = '0.5s ease-in-out'
+  openBtn.style.opacity = '0'
   console.log(basketBox)
 })
 
@@ -20,7 +21,7 @@ closeBtn.addEventListener('click', () => {
   shopBox.style.display = 'block',
   shopBox.style.transition = '0.5s ease-in-out'
   basketBox.style.transition = '0.5s ease-in-out'
-
+  openBtn.style.opacity = ''
 })
 
 let basketBox = document.createElement('div');
